@@ -390,7 +390,7 @@ align-items: center;
   }
 
   .contact h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 
   }
 
@@ -661,7 +661,28 @@ align-items: center;
   body::-webkit-scrollbar-track {
     background-color: #1c0404; /* Adjust the scrollbar track color */
   }
+
   
+
+
+  .contact-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 25px; /* Adjust the font size as needed */
+    color: #14cc95; /* Red color for text */
+}
+
+.contact-list li i {
+    margin-right: 15px;
+    color: #0000ff; /* Blue color for icons */
+}
+
+.contact-list li a {
+    text-decoration: none;
+    color: #17d693; /* Red color for links */
+}
+
 
 
   /* Add these styles to your existing CSS file */
@@ -671,13 +692,14 @@ align-items: center;
   overflow: hidden;
   width: 100%;
   height: auto;
+ 
 }
 
 .blob-animation {
   position: absolute;
   top: 25%;
-  left: 35%;
-  width: 50%;
+  left: 25%;
+  width: 80%;
   height: 100%;
   background-image: radial-gradient(circle, #ff61a6 25%, transparent 25%),
                     radial-gradient(circle, #25c2a0 25%, transparent 25%),
